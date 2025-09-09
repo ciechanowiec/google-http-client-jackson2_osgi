@@ -6,7 +6,7 @@
 
     <groupId>eu.ciechanowiec</groupId>
     <artifactId>google-http-client-jackson2</artifactId>
-    <version>1.47.0</version>
+    <version>2.0.0</version>
 
     <name>Jackson 2 extensions to the Google HTTP Client Library for Java - OSGi Bundle</name>
     <description>Shaded OSGi bundle of Jackson 2 extensions to the Google HTTP Client Library for Java</description>
@@ -59,7 +59,7 @@
         <!-- ====================================================================== -->
         <!-- PLUGINS                                                                -->
         <!-- ====================================================================== -->
-        <versions-maven-plugin.version>2.18.0</versions-maven-plugin.version>
+        <versions-maven-plugin.version>2.19.0</versions-maven-plugin.version>
         <maven-shade-plugin.version>3.6.0</maven-shade-plugin.version>
         <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
         <bnd-maven-plugin.version>7.1.0</bnd-maven-plugin.version>
@@ -67,10 +67,10 @@
         <maven-dependency-plugin.version>3.8.1</maven-dependency-plugin.version>
         <maven-antrun-plugin.version>3.1.0</maven-antrun-plugin.version>
         <build-helper-maven-plugin.version>3.6.1</build-helper-maven-plugin.version>
-        <gmavenplus-plugin.version>4.2.0</gmavenplus-plugin.version>
-        <groovy.version>4.0.27</groovy.version>
-        <groovy-ant.version>4.0.27</groovy-ant.version>
-        <maven-enforcer-plugin.version>3.5.0</maven-enforcer-plugin.version>
+        <gmavenplus-plugin.version>4.2.1</gmavenplus-plugin.version>
+        <groovy.version>5.0.0</groovy.version>
+        <groovy-ant.version>5.0.0</groovy-ant.version>
+        <maven-enforcer-plugin.version>3.6.1</maven-enforcer-plugin.version>
         <maven-deploy-plugin.version>3.1.2</maven-deploy-plugin.version>
         <maven-gpg-plugin.version>3.2.7</maven-gpg-plugin.version>
         <central-publishing-maven-plugin.version>0.7.0</central-publishing-maven-plugin.version>

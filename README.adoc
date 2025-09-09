@@ -20,7 +20,7 @@
 
 == Overview
 
-This repository delivers a shaded OSGi bundle of a https://github.com/googleapis/google-http-java-client/blob/369be6a220b0bcb5badfedb82c111d3e330fcf1c/google-http-client-jackson2[_Jackson 2 extensions to the Google HTTP Client Library for Java_^] artifact for running inside the https://github.com/ciechanowiec/sling_rocket[_Sling Rocket_^] environment.
+This repository delivers a shaded OSGi bundle of a https://github.com/googleapis/google-http-java-client/tree/5d0689a4a7174f8c829fbba6e38630d34298393d/google-http-client-jackson2[_Jackson 2 extensions to the Google HTTP Client Library for Java_^] artifact for running inside the https://github.com/ciechanowiec/sling_rocket[_Sling Rocket_^] environment.
 
 [upperalpha]
 . Maven coordinates for the bundle delivered by this repository:
@@ -30,7 +30,7 @@ This repository delivers a shaded OSGi bundle of a https://github.com/googleapis
 <dependency>
     <groupId>eu.ciechanowiec</groupId>
     <artifactId>google-http-client-jackson2</artifactId>
-    <version>1.47.0</version>
+    <version>2.0.0</version>
 </dependency>
 ----
 . Maven coordinates for the original _Jackson 2 extensions to the Google HTTP Client Library for Java_ artifact that is shaded in the bundle delivered by this repository:
@@ -40,7 +40,7 @@ This repository delivers a shaded OSGi bundle of a https://github.com/googleapis
 <dependency>
     <groupId>com.google.http-client</groupId>
     <artifactId>google-http-client-jackson2</artifactId>
-    <version>1.47.0</version>
+    <version>2.0.0</version>
 </dependency>
 ----
 
