@@ -30,7 +30,7 @@ This repository delivers a shaded OSGi bundle of a https://github.com/googleapis
 <dependency>
     <groupId>eu.ciechanowiec</groupId>
     <artifactId>google-http-client-jackson2</artifactId>
-    <version>2.0.0</version>
+    <version>2.0.0_2</version>
 </dependency>
 ----
 . Maven coordinates for the original _Jackson 2 extensions to the Google HTTP Client Library for Java_ artifact that is shaded in the bundle delivered by this repository:
